@@ -9,19 +9,19 @@ El simulador modela conceptos fundamentales de Sistemas Operativos como:
 
 Este proyecto forma parte de mi portafolio académico en la carrera de Ingeniería en Sistemas Computacionales.
 
-🎯 Objetivos del proyecto
+Objetivos del proyecto
   * Comprender y aplicar el ciclo de vida de un proceso
   * Implementar algoritmos de planificación de CPU
   * Simular la multitarea mediante Round Robin
   * Reforzar conceptos de Programación Orientada a Objetos
   * Utilizar estructuras de datos como colas (Queue)
 
-⚙️ Tecnologías utilizadas
+Tecnologías utilizadas
 Lenguaje: Java
 Estructuras de datos: Queue, LinkedList
 Paradigma: Programación Orientada a Objetos (POO)
 
-🧠 Conceptos implementados
+ Conceptos implementados
 Estados de un proceso:
 NEW
 READY
@@ -36,8 +36,7 @@ Round Robin con quantum fijo
 FIFO
 PRIORIDAD
 
-
-▶️ Ejecución del programa
+Ejecución del programa
 Se crean varios procesos con:
 ID
 Tiempo total de ejecución
