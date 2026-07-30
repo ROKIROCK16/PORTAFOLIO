@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "Nosotros",
+    "subtitle": "Café, comunidad y buen tiempo en Cabo.",
+    "image": "/images/about.svg"
+  },
+  "history": {
+    "title": "Nuestra historia",
+    "text": "Cabo Aroma nació en 2019 como una barra pequeña frente a la marina. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Con el tiempo se convirtió en el punto de encuentro de locales, viajeros y gente que trabaja desde su laptop con vista al mar.",
+    "image": "/images/gallery-2.svg"
+  },
+  "mission": {
+    "title": "Misión",
+    "text": "Servir café de especialidad honesto y crear un espacio donde cualquiera se sienta en casa."
+  },
+  "vision": {
+    "title": "Visión",
+    "text": "Ser la cafetería de referencia en Baja California Sur por calidad, calidez y consistencia."
+  },
+  "values": [
+    {
+      "title": "Calidad",
+      "text": "Grano de origen tostado en lotes pequeños."
+    },
+    {
+      "title": "Calidez",
+      "text": "Servicio cercano, sin prisas y con nombre propio."
+    },
+    {
+      "title": "Comunidad",
+      "text": "Apoyamos productores y artistas locales."
+    },
+    {
+      "title": "Sostenibilidad",
+      "text": "Empaques compostables y desperdicio mínimo."
+    }
+  ],
+  "team": [
+    {
+      "name": "Ana Rivera",
+      "role": "Head Barista",
+      "image": "/images/team-1.svg"
+    },
+    {
+      "name": "Luis Cordero",
+      "role": "Pastry Chef",
+      "image": "/images/team-2.svg"
+    },
+    {
+      "name": "Mariana Ruiz",
+      "role": "Gerente",
+      "image": "/images/team-3.svg"
+    }
+  ]
+}

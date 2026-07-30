@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "image": "/images/hero.svg",
+    "logo": "",
+    "logoAlt": "Logo Cabo Aroma",
+    "kicker": "Los Cabos",
+    "title": "Cabo Aroma",
+    "subtitle": "Un espacio pensado para trabajar, conectar y quedarte.",
+    "primaryCta": {
+      "label": "Ver menú",
+      "href": "/menu"
+    },
+    "secondaryCta": {
+      "label": "Contáctanos",
+      "href": "/contacto"
+    }
+  },
+  "about": {
+    "image": "/images/about.svg",
+    "sideImage": "/images/cup.svg",
+    "intro": "En Cabo Aroma queremos que te sientas en casa, acompañarte en tus días difíciles con una taza de café o disfrutar del día con alguno de nuestros postres.",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisi aliquam eros, vitae feugiat velit urna a mi. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla.",
+    "highlight": "Un espacio pensado para trabajar, conectar y quedarte."
+  },
+  "featured": {
+    "title": "Nuestros favoritos",
+    "subtitle": "Lo que más piden nuestros clientes",
+    "items": [
+      {
+        "id": "f1",
+        "name": "Americano frío",
+        "description": "Doble shot de espresso sobre hielo.",
+        "price": 58,
+        "image": "/images/prod-1.svg"
+      },
+      {
+        "id": "f2",
+        "name": "Waffles de temporada",
+        "description": "Con fresas, blueberries y azúcar glass.",
+        "price": 135,
+        "image": "/images/prod-2.svg"
+      },
+      {
+        "id": "f3",
+        "name": "Cheesecake de fresa",
+        "description": "Base de galleta y nuez caramelizada.",
+        "price": 95,
+        "image": "/images/prod-3.svg"
+      },
+      {
+        "id": "f4",
+        "name": "Matcha latte",
+        "description": "Matcha ceremonial con leche de avena.",
+        "price": 85,
+        "image": "/images/prod-4.svg"
+      }
+    ]
+  },
+  "menuPreview": {
+    "title": "MENU 2026",
+    "subtitle": "Café de especialidad, postres y algo más",
+    "cta": {
+      "label": "Ver menú completo",
+      "href": "/menu"
+    }
+  }
+}

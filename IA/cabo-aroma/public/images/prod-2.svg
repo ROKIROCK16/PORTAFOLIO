@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Producto 2">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#C48A5A"/><stop offset="100%" stop-color="#7A4B2A"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <circle cx="656" cy="132" r="96" fill="#B4703A" opacity="0.35"/>
+  <circle cx="144" cy="480" r="132" fill="#ffffff" opacity="0.08"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Georgia, serif" font-size="50" fill="#FBF6EE" opacity="0.9">Producto 2</text>
+</svg>

@@ -1,0 +1,33 @@
+{
+  "title": "Contáctanos",
+  "subtitle": "Estamos a una taza de distancia.",
+  "address": "Blvd. Marina 210, Centro, Cabo San Lucas, B.C.S.",
+  "phone": "+52 624 145 0987",
+  "email": "hola@caboaroma.mx",
+  "mapEmbed": "",
+  "mapPlaceholder": "/images/map.svg",
+  "schedule": [
+    {
+      "day": "Lunes a Viernes",
+      "hours": "7:00 - 21:00"
+    },
+    {
+      "day": "Sábado",
+      "hours": "8:00 - 22:00"
+    },
+    {
+      "day": "Domingo",
+      "hours": "8:00 - 18:00"
+    }
+  ],
+  "form": {
+    "title": "Escríbenos",
+    "successMessage": "¡Gracias! Te responderemos muy pronto.",
+    "fields": {
+      "name": "Nombre",
+      "email": "Correo",
+      "message": "Mensaje"
+    },
+    "submitLabel": "Enviar mensaje"
+  }
+}

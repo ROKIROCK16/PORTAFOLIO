@@ -1,0 +1,48 @@
+{
+  "businessName": "Cabo Aroma",
+  "tagline": "Café de especialidad en Los Cabos",
+  "logo": "/images/logo.svg",
+  "colors": {
+    "primary": "#1F3B2C",
+    "secondary": "#B4703A",
+    "beige": "#F3EADB",
+    "cream": "#FBF6EE",
+    "dark": "#22201D",
+    "gold": "#C9A227"
+  },
+  "phone": "+52 624 145 0987",
+  "whatsapp": "+52 624 145 0987",
+  "email": "hola@caboaroma.mx",
+  "address": "Blvd. Marina 210, Centro, Cabo San Lucas, B.C.S.",
+  "social": {
+    "instagram": "https://instagram.com/caboaroma",
+    "facebook": "https://facebook.com/caboaroma",
+    "tiktok": "https://tiktok.com/@caboaroma"
+  },
+  "nav": [
+    {
+      "label": "Inicio",
+      "href": "/"
+    },
+    {
+      "label": "Galería",
+      "href": "/galeria"
+    },
+    {
+      "label": "Nosotros",
+      "href": "/nosotros"
+    },
+    {
+      "label": "Menú",
+      "href": "/menu"
+    },
+    {
+      "label": "Contactanos",
+      "href": "/contacto"
+    }
+  ],
+  "footer": {
+    "note": "MENU 2026",
+    "copyright": "© 2026 Cabo Aroma. Todos los derechos reservados."
+  }
+}

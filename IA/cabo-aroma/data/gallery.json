@@ -1,0 +1,60 @@
+{
+  "title": "Galería",
+  "subtitle": "Un vistazo a nuestro espacio y nuestra carta.",
+  "items": [
+    {
+      "id": "g1",
+      "src": "/images/gallery-1.svg",
+      "alt": "Barra principal",
+      "category": "Espacio"
+    },
+    {
+      "id": "g2",
+      "src": "/images/gallery-2.svg",
+      "alt": "Área de mesas",
+      "category": "Espacio"
+    },
+    {
+      "id": "g3",
+      "src": "/images/gallery-3.svg",
+      "alt": "Terraza",
+      "category": "Espacio"
+    },
+    {
+      "id": "g4",
+      "src": "/images/gallery-4.svg",
+      "alt": "Latte art",
+      "category": "Bebidas"
+    },
+    {
+      "id": "g5",
+      "src": "/images/gallery-5.svg",
+      "alt": "Americano frío",
+      "category": "Bebidas"
+    },
+    {
+      "id": "g6",
+      "src": "/images/gallery-6.svg",
+      "alt": "Matcha latte",
+      "category": "Bebidas"
+    },
+    {
+      "id": "g7",
+      "src": "/images/gallery-7.svg",
+      "alt": "Waffles con fresas",
+      "category": "Postres"
+    },
+    {
+      "id": "g8",
+      "src": "/images/gallery-8.svg",
+      "alt": "Cheesecake",
+      "category": "Postres"
+    },
+    {
+      "id": "g9",
+      "src": "/images/gallery-9.svg",
+      "alt": "Croissant",
+      "category": "Postres"
+    }
+  ]
+}

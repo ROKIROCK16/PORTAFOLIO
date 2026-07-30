@@ -1,0 +1,140 @@
+{
+  "title": "Menú",
+  "subtitle": "Precios en MXN. Disponibilidad sujeta a temporada.",
+  "categories": [
+    {
+      "id": "cafes-calientes",
+      "name": "Cafés calientes",
+      "products": [
+        {
+          "id": "p1",
+          "name": "Espresso",
+          "description": "Shot corto, notas a cacao.",
+          "price": 45,
+          "image": "/images/prod-1.svg"
+        },
+        {
+          "id": "p2",
+          "name": "Cappuccino",
+          "description": "Espresso, leche vaporizada y espuma.",
+          "price": 65,
+          "image": "/images/prod-4.svg"
+        },
+        {
+          "id": "p3",
+          "name": "Latte",
+          "description": "Suave, cremoso, con arte en la superficie.",
+          "price": 70,
+          "image": "/images/prod-4.svg"
+        }
+      ]
+    },
+    {
+      "id": "cafes-frios",
+      "name": "Cafés fríos",
+      "products": [
+        {
+          "id": "p4",
+          "name": "Americano frío",
+          "description": "Doble shot sobre hielo.",
+          "price": 58,
+          "image": "/images/prod-1.svg"
+        },
+        {
+          "id": "p5",
+          "name": "Latte caramelo",
+          "description": "Con salsa de caramelo casera.",
+          "price": 78,
+          "image": "/images/prod-1.svg"
+        },
+        {
+          "id": "p6",
+          "name": "Cold brew",
+          "description": "18 horas de extracción en frío.",
+          "price": 80,
+          "image": "/images/prod-1.svg"
+        }
+      ]
+    },
+    {
+      "id": "bebidas-especiales",
+      "name": "Bebidas especiales",
+      "products": [
+        {
+          "id": "p7",
+          "name": "Matcha latte",
+          "description": "Matcha ceremonial y leche de avena.",
+          "price": 85,
+          "image": "/images/prod-4.svg"
+        },
+        {
+          "id": "p8",
+          "name": "Chai casero",
+          "description": "Especias molidas en casa.",
+          "price": 75,
+          "image": "/images/prod-4.svg"
+        }
+      ]
+    },
+    {
+      "id": "postres",
+      "name": "Postres",
+      "products": [
+        {
+          "id": "p9",
+          "name": "Cheesecake de fresa",
+          "description": "Base de galleta y nuez.",
+          "price": 95,
+          "image": "/images/prod-3.svg"
+        },
+        {
+          "id": "p10",
+          "name": "Brownie",
+          "description": "Chocolate 70% y nuez pecana.",
+          "price": 70,
+          "image": "/images/prod-3.svg"
+        }
+      ]
+    },
+    {
+      "id": "waffles",
+      "name": "Waffles",
+      "products": [
+        {
+          "id": "p11",
+          "name": "Waffle clásico",
+          "description": "Mantequilla y maple.",
+          "price": 110,
+          "image": "/images/prod-2.svg"
+        },
+        {
+          "id": "p12",
+          "name": "Waffle de frutos rojos",
+          "description": "Fresas, blueberries y azúcar glass.",
+          "price": 135,
+          "image": "/images/prod-2.svg"
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "products": [
+        {
+          "id": "p13",
+          "name": "Croissant de jamón y queso",
+          "description": "Hojaldre horneado del día.",
+          "price": 85,
+          "image": "/images/prod-2.svg"
+        },
+        {
+          "id": "p14",
+          "name": "Avocado toast",
+          "description": "Pan de masa madre y huevo pochado.",
+          "price": 125,
+          "image": "/images/prod-2.svg"
+        }
+      ]
+    }
+  ]
+}
