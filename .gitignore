@@ -44,3 +44,6 @@ yarn-debug.log*
 yarn-error.log*
 HACKING ETICO/urh/
 PROYECTOS/
+
+# El sitio del cafe tiene su propio repo privado: ROKIROCK16/cabo-aroma
+IA/cabo-aroma/
