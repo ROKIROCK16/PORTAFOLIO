@@ -68,6 +68,21 @@ color pickers para colores, preview para imágenes y botones agregar/eliminar en
 
 Sustituye el archivo en `public/images/` conservando el nombre, o cambia la ruta desde Studio.
 
+## Despliegue
+
+El sitio publico es estatico y funciona en cualquier host. La unica pieza con requisitos
+especiales es **Studio**, porque escribe los JSON en disco:
+
+| Host | Sitio publico | Studio (`/studio`) |
+|---|---|---|
+| Local (`npm run dev`) | si | si |
+| VPS / Docker / Render con disco | si | si, con `ENABLE_STUDIO=true` |
+| Vercel / Netlify (serverless) | si | no: FS de solo lectura, el `PUT` responde 503 |
+
+En serverless el contenido se sigue sirviendo desde `data/*.json` (van en el repo);
+para cambiarlo, editas el JSON y vuelves a desplegar. Copia `.env.example` a `.env`
+si necesitas habilitar Studio en un host con disco persistente.
+
 ## Escalabilidad
 
 - `src/lib/content.ts` es la única capa de acceso a datos: para migrar a una base de datos

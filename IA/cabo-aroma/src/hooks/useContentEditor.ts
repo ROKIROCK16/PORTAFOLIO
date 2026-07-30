@@ -56,7 +56,10 @@ export function useContentEditor(key: ContentKey) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-      if (!response.ok) throw new Error("No se pudo guardar");
+      if (!response.ok) {
+        const { error } = await response.json().catch(() => ({ error: null }));
+        throw new Error(error ?? "No se pudo guardar");
+      }
       setStatus("saved");
       setError(null);
     } catch (cause) {

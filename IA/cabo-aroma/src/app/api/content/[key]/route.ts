@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { revalidatePath } from "next/cache";
-import { getContent, isContentKey, saveContent } from "@/lib/content";
+import { getContent, isContentKey, isStudioWritable, saveContent } from "@/lib/content";
 import type { ContentKey, ContentMap } from "@/types/content";
 
 type Params = { params: Promise<{ key: string }> };
@@ -28,6 +28,17 @@ export async function PUT(request: Request, { params }: Params) {
 
   if (typeof body !== "object" || body === null || Array.isArray(body)) {
     return NextResponse.json({ error: "Content must be a JSON object" }, { status: 400 });
+  }
+
+  // Studio writes to disk: imposible en hosting serverless (FS de solo lectura).
+  if (!isStudioWritable()) {
+    return NextResponse.json(
+      {
+        error:
+          "Studio es solo para desarrollo local: este entorno tiene el sistema de archivos en solo lectura.",
+      },
+      { status: 503 }
+    );
   }
 
   await saveContent(key as ContentKey, body as ContentMap[ContentKey]);

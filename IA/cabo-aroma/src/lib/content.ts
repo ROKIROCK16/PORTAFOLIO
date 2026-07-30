@@ -35,6 +35,15 @@ export async function getAllContent(): Promise<ContentMap> {
   return Object.fromEntries(entries) as ContentMap;
 }
 
+/**
+ * Studio persiste en disco, asi que solo funciona donde el FS es escribible:
+ * local o un host con volumen persistente (VPS, Docker, Render Disk).
+ * En serverless (Vercel/Netlify) el FS es de solo lectura.
+ */
+export function isStudioWritable(): boolean {
+  return process.env.ENABLE_STUDIO === "true" || process.env.NODE_ENV === "development";
+}
+
 /** Writes a JSON content file back to disk (used by the Studio API). */
 export async function saveContent<K extends ContentKey>(
   key: K,
