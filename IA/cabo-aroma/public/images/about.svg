@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-label="Nuestro espacio">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#6B4A33"/><stop offset="100%" stop-color="#2C1E15"/></linearGradient></defs>
-  <rect width="900" height="700" fill="url(#g)"/>
-  <circle cx="738" cy="154" r="112" fill="#B4703A" opacity="0.35"/>
-  <circle cx="162" cy="560" r="154" fill="#ffffff" opacity="0.08"/>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Georgia, serif" font-size="58" fill="#FBF6EE" opacity="0.9">Nuestro espacio</text>
-</svg>
