@@ -1,0 +1,43 @@
+# --- Dependencias y builds ---
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+
+# --- Comprimidos / binarios pesados ---
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# --- Accesos directos y basura del SO ---
+*.lnk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Residuo de shell / herramientas (no pertenece al repo) ---
+.bash_history
+.lesshst
+.viminfo
+.packettracer
+.gitconfig
+.config/
+tracker.prefs
+
+# --- Secretos y entorno ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
